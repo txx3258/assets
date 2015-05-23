@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*
+ * ---------------------------------------------
+ * website: 
+ * filename: common.css
+ * revision: 1.0
+ * createdate: 2014-01-15
+ * author: lc
+ * description: reset style
+ * ---------------------------------------------
+ */
+/*-------------------reset css--------------------*/
+html,
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+input,
+p,
+th,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin: 0; padding: 0; }
+body { font: 14px/200% '微软雅黑'; color: #555; text-align: left; }
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6 { font-size: 100%; }
+select,
+input,
+table,
+td { font-size: 14px; }
+table { border-collapse: collapse; }
+caption,
+strong,
+th,
+b,
+em,
+i { font-style: normal; font-weight: normal; }
+ul,
+li { list-style: none; }
+caption,
+th { text-align: left; }
+img { border: none; }
+:focus,
+a { outline: none; text-decoration: none; color: #787878;}
+:focus { background: none; }
+p{ padding:5px 0; line-height:24px;}
+/*-------------------common css--------------------*/
+.web-width{ width:1000px; margin:0 auto;}
+/*常用类*/
+.float_left { float: left; }
+.float_right { float: right; }
+.clear_float { clear: both; }
+.align_right { text-align: right; }
+.align_center { text-align: center; }
+.align_left { text-align: left; }
+/*清除浮动*/
+.clear:after { display: block; clear: both; content: ""; visibility: hidden; height: 0; }
+.clear { zoom: 1; }
+
+
+
+
+
+

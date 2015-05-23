@@ -1,0 +1,26 @@
+﻿.searchBar {height: 26px; background: url(../images/searchBar_fdj.gif) no-repeat left top; padding: 0 0 0 30px; position: absolute; top: 16px; right: 30px;}
+.searchBar .ipt {border: 0; height: 26px; float: left; background: url(../images/searchBar_ipt.gif) repeat-x left top; width: 340px; line-height: 26px; float: left; color: #AAA;}
+.searchBar .btn {border: 0; width: 60px; height: 26px; color: #fff; background: url(../images/searchBar_btn.gif) no-repeat; cursor: pointer;}
+
+.tab ul {height: 40px; padding: 0 0 0 11px; position: relative; bottom: -1px;}
+.tab li {float: left; display: inline; margin: 0 0 0 -1px; width: 80px; height: 35px; text-align: center; line-height: 14px;}
+.tab li a {display: block; height: 33px; background: url(../images/tab_bg1.gif) repeat-x 0 1px; border: 1px solid #CCC; padding: 5px 0 0 0;}
+.tab li a p {color: #555;}
+.tab li.active a, .tab li a:hover {background: url(../images/tab_bg1.gif) repeat-x 0 -38px; border: 1px solid #467b97; color: #FFF; text-decoration: none;}
+.tab li.active p, .tab li a:hover p {color: #FFF;}
+
+.listTable1 {width: 100%; border: 1px solid #CCC; border-collapse: collapse;}
+.listTable1 td, .listTable1 th {border-bottom: 1px solid #ccc; padding: 5px 10px; vertical-align: top; background: #FFF;}
+.listTable1 th {height: 28px; padding: 0 10px; background: url(../images/th_bg1.gif) repeat-x 0 -38px; vertical-align: middle; font-weight: bold;}
+.listTable1 .point { background: #FFC;}
+.listTable1 .pic {float: left; margin: 0 10px 10px 0;}
+.listTable1 .pic img {width: 64px; height: 64px;}
+.listTable1 .status {line-height: 30px; color: #DD0000;}
+.listTable1 .price {color: #DD0000; font-weight: bold;}
+.listTable1 .search {height: 37px; background: url(../images/th_bg1.gif) repeat-x; vertical-align: middle; padding: 0 10px; text-align: left;}
+.listTable1 .search .ipt {height: 20px; width: 80px; border: 1px solid #ccc; line-height: 20px; padding: 0 3px; color: #666;}
+.listTable1 .search .select {border: 1px solid #CCC; height: 22px; line-height: 22px;}
+.listTable1 .search .select option {line-height: 22px;}
+.listTable1 .search .btn {width: 40px; height: 20px; color: #FFF; border: 1px solid #e85700; background: url(../images/yellow_btn.gif) repeat-x; cursor: pointer;}
+.listTable1 .check {float: left; margin: 3px 5px 0 0;}
+.listTable1 .pager {float: right;}

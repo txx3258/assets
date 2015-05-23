@@ -1,0 +1,82 @@
+﻿.form {background: #FFF; padding: 20px; border: 1px solid #DDD;}
+.form h3 {font-size: 14px; font-weight: bold; margin: 0 0 10px 0;}
+.form h3 span {float: right; font-size: 12px; font-weight: normal; color: #DD0000;}
+
+.listForm1 {border: none; border-collapse: collapse; width: 100%;}
+.listForm1 th {width: 110px; text-align: left; font-weight: normal;}
+.listForm1 th,
+.listForm1 td {padding: 5px 0;}
+.listForm1 input[type^="text"],
+.listForm1 textarea,
+.listForm1 select {border-top: 1px solid #aaa; border-left: 1px solid #aaa; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; color: #555; font-size: 12px;}
+.listForm1 select {width: 165px;}
+.listForm1 .form_text {height: 22px; line-height: 22px; padding: 0 4px;}
+.listForm1 textarea {padding: 4px;}
+.listForm1 .warning {border: 1px solid #fce29a; background: #fffed0; padding: 5px 10px 5px 115px; color: #f00;}
+.listForm1 .dl_group {padding: 5px; line-height: 22px; clear: both; overflow: hidden;}
+.listForm1 .dl_group dt {font-weight: bold; padding-bottom: 4px;}
+.listForm1 .dl_group dd {height: 22px; width: 20%; float: left;}
+.listForm1 .dl_group dd a {padding: 2px 4px;}
+.listForm1 .dl_group dd a:hover {background: #1c82bb; color: #fff;}
+.listForm1 .dl_select {padding: 5px 4px; line-height: 22px;}
+.listForm1 .dl_select dt {padding: 0 3px 4px; font-weight: bold;}
+.listForm1 .dl_select dd {height: 22px; line-height: 22px; margin-bottom: 2px; background: #e4eaee; padding: 0 2px;}
+.listForm1 .dl_select dd a {float: right;}
+
+.blue_btn {border: 1px solid #467b97; height: 20px; color: #fff; background: url(../images/blue_btn.gif) repeat-x; cursor: pointer;}
+.btn90 {padding: 0 15px;}
+button.upload {width: 120px;}
+.big_btn {height: 33px; display: block; font-size: 14px; color: #fff; font-weight: bold; text-align: center; line-height: 33px; float: left; margin-right: 5px; padding: 0 15px; color: #FFF;}
+.big_btn:hover {color: #FFF; text-decoration: none;}
+.next {background: url(../images/bigbtn.gif) repeat-x 0 -33px; border: 1px solid #E85700;}
+.back {background: url(../images/bigbtn.gif) repeat-x 0 0; border: 1px solid #467b97;}
+.big_btn2em {width: 100px; height: 33px; border: 1px solid #467b97; background: url(../images/bigbtn.gif) repeat-x; font-size: 14px; color: #fff; font-weight: bold; text-align: center; line-height: 33px; cursor: pointer;}
+
+#tag_table {border: none; border-collapse: collapse; table-layout: fixed;}
+#tag_table td {border: 1px solid #ccc; padding: 0; vertical-align: top; line-height: 22px;}
+#tag_table td.gray {padding: 2px 5px; border: none;}
+
+button.upload {width: 120px;}
+button.upload span {padding-left: 17px; background: url(../images/upload.gif) no-repeat left center;}
+ul.screenshot,
+ul.icon_list{padding: 5px 0;}
+ul.screenshot li,
+ul.icon_list li {float: left; padding-right: 5px; text-align: center;}
+ul.screenshot li a,
+ul.icon_list li a {clear: both; display: block; line-height: 22px;}
+
+.dl_version {overflow: hidden; line-height: 22px;}
+.dl_version dd {width: 60px; float: left; height: 22px; line-height: 22px;}
+.relative {position: relative;}
+.poplayer {position: absolute; width: 90px; top: -5px; left: -10px; padding: 5px 8px; background: #fff; border: 1px solid #fff;}
+.checkbox {width: 110px; float: left; height: 24px; line-height: 24px;}
+.borderc {border: 1px solid #ccc;}
+.selectbox {display: none; line-height: 16px;}
+.selectbox label {padding-bottom: 5px; clear: both; display: block;}
+
+#shadow {width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: #000; filter: alpha(opacity=40); opacity: 0.4; display: none;}
+.popwindow {position: absolute; width: 600px; left: 50%; margin-left: -300px; z-index: 99; top: 400px; display: none;}
+.popwindow h2 {height: 35px; padding: 0 0 0 20px; background: url(../images/t_icon.gif) no-repeat left center; line-height: 35px; font-size:18px; float: left;}
+.popwindow td .gray {line-height: 22px;}
+.pop_bar {height: 35px;}
+.pl,.pr{height: 35px; width: 8px; background: url(../images/pop_bar.gif) no-repeat 0 0; float: left;}
+.pr {float: right; background:url(../images/pop_bar.gif) no-repeat -8px 0;}
+.bar {width: 584px; height: 35px; background: url(../images/pop_bar.gif) repeat-x 0 -35px; float: left;}
+.pop_bar .fright {line-height: 35px; color: #888; text-align: right;}
+a.close {width: 19px; height: 19px; float: right; display: block; margin-left: 5px; margin-top: 8px; background: url(../images/close.gif) no-repeat 0 -19px; text-indent: 10000px; overflow: hidden;}
+a:hover.close {background: url(../images/close.gif) no-repeat 0 0;}
+.pop_content {background: #fff; padding: 10px 10px 2px 10px; overflow: hidden;}
+.pop_content .st {padding: 5px 0 5px 15px;}
+.form_main {padding: 10px 14px; border: 1px solid #ccc;}
+.pop_footer {width: 600px; height: 8px; background: url(../images/pop_bottom.gif) no-repeat 0 0; overflow: hidden;}
+.img64 {width: 64px; height: 64px; float: left; overflow: hidden; position: relative; cursor: pointer;}
+.img64  img {width: 64px; height: 64px;	
+}
+.change {margin-top: 10px; float: left; margin-left: 20px;}
+.img_checked span {display: block; width: 64px; height:64px; top: 0; left: 0; background: url(../images/img_out.gif) no-repeat; position: absolute;}
+.checkbox {width: 110px; float: left; height: 24px; line-height: 24px;}
+.resolutionType {clear: both; padding: 4px 0; overflow: hidden;}
+.dl_version {overflow: hidden; line-height: 22px;}
+.dl_version dd {width: 60px; float: left; height: 22px; line-height: 22px;}
+.poplayer {position: absolute; width: 90px; top: -5px; left: -10px; padding: 5px 8px; background: #fff; border: 1px solid #fff;}
+.borderc {border: 1px solid #ccc;}

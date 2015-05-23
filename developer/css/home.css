@@ -1,0 +1,248 @@
+﻿.flash {
+    height: 264px;
+    background: url(../images/home_flash_bg.gif) no-repeat;
+    position: relative;
+}
+
+.flash .box {
+    width: 930px;
+    height: 240px;
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    top: 11px;
+    z-index: 1;
+}
+
+.flash .box ul {
+    width: 9999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.flash .box ul li {
+    display: block;
+    float: left;
+    width: 950px;
+    height: 240px;
+}
+
+.flash .arrow {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(../images/home_flash_btn.png) no-repeat 0 0;
+    position: absolute;
+    top: 100px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.flash .back {
+    background-position: 0 0;
+    left: 30px;
+}
+
+.flash .back:hover {
+    background-position: 0 -40px;
+}
+
+.flash .forward {
+    background-position: 0 -80px;
+    right: 30px;
+}
+
+.flash .forward:hover {
+    background-position: 0 -120px;
+}
+
+.news {
+    height: 33px;
+    background: url(../images/home_news_bg.gif) no-repeat;
+    position: relative;
+    margin: 5px 0;
+}
+
+.news .box {
+    width: 900px;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    left: 25px;
+    top: 0;
+    z-index: 1;
+}
+
+.news .box ul {
+    width: 9999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.news .box ul li {
+    display: block;
+    float: left;
+    width: 900px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.news .box ul li a {
+    display: block;
+    float: left;
+    width: 150px;
+    padding: 0 10px 0 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #555;
+    background: url(../images/ico_li1.gif) no-repeat 10px center;
+}
+
+.news .box ul li a:hover {
+    color: #DD0000;
+}
+
+.news .arrow {
+    display: block;
+    width: 25px;
+    height: 30px;
+    background: url(../images/home_news_btn.gif) no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.news .back {
+    background-position: 0 0;
+    left: 0;
+}
+
+.news .back:hover {
+    background-position: 0 -30px;
+}
+
+.news .back:active {
+    background-position: 0 -60px;
+}
+
+.news .forward {
+    background-position: -25px 0;
+    right: 0;
+}
+
+.news .forward:hover {
+    background-position: -25px -30px;
+}
+
+.news .forward:active {
+    background-position: -25px -60px;
+}
+
+.main {
+    float: left;
+    width: 680px;
+}
+
+.main .tit h2 {
+    color: #1C82BB;
+}
+
+.side {
+    float: right;
+    width: 210px;
+}
+
+.kfsm .sm {
+    padding: 10px 0 20px 0;
+}
+
+.kfsm .cot {
+    height: 100%;
+    overflow: hidden;
+    width: 690px;
+    margin: 0 0 0 -10px;
+}
+
+.kfsm .cot dl {
+    width: 220px;
+    float: left;
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+.kfsm .cot dd {
+    padding: 10px 5px;
+    line-height: 20px;
+}
+
+.kfsm a {
+    float: right;
+    background: url(../images/ico_jt1.gif) no-repeat right center;
+    padding: 20px 10px 20px 0;
+    cursor: pointer;
+}
+
+.rmht {
+    width: 320px;
+    float: left;
+}
+
+.syjh {
+    width: 320px;
+    float: right;
+}
+
+.jrkfz h2 {
+    background: url(../images/home_h2_jrkfz.gif) no-repeat left center;
+    padding: 0 0 0 25px;
+}
+
+.jrkfz p {
+    padding: 10px 0 0 0;
+    line-height: 20px;
+}
+
+.kfmx h2 {
+    background: url(../images/home_h2_kfmx.gif) no-repeat left center;
+    padding: 0 0 0 25px;
+}
+
+.kfmx ul {
+    padding: 15px 0 0 0;
+}
+
+.kfmx li {
+    text-align: center;
+    height: 110px;
+}
+
+.kfmx li img {
+    border: 1px solid #CCC;
+    display: block;
+    margin: 0 auto 8px auto;
+    width: 200px;
+    height: 70px;
+}
+
+.lsText1 {
+    padding: 10px;
+}
+
+.lsText1 li {
+    height: 22px;
+    line-height: 22px;
+    background: url(../images/ico_li2.gif) no-repeat left center;
+    padding: 0 0 0 10px;
+}
+
+.lsText1 li a {
+    color: #555;
+}
+
+.lsText1 li a:hover {
+    color: #DD0000;
+}

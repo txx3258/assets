@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+.adp-first { font-family: '微软雅黑'; font-size: 14px; }
+.adp-first .slide_box { margin-top: 10px; }
+.padding10 { padding: 3px 10px; }
+.textIndent { text-indent: 2em; }
+.strong { font-weight: bold; }
+.first-notice { padding: 0 0 30px; width: 720px; margin: 0 auto; }
+.first-notice dt { line-height: 30px; color: #000; }
+.first-notice dt.margin25 { margin-top: 25px; }
+.first-notice dd { color: #555; line-height: 26px; }
+.first-notice dd a { color: #197dcb; text-decoration: underline; font-size: 14px; }
+.adp-first .sub_title { width: 720px; margin-bottom: 10px; }
+.adp-first .slide_box { padding-bottom: 10px; }
+.myaccount .Validform_checktip { height: 30px; display: inline; }
+/*new-application*/
+.new-application h2 { width: auto; font-weight: normal; }
+.new-application .calendar-box-default { width: 260px; height: 29px; line-height: 27px; }
+.new-application .calendar-box-default .calendar { width: 258px; }
+.new_appList { width: 520px; }
+.new_appList li { width: 130px; height: 29px; float: left; padding: 0 0px 0 0; line-height: 28px; }
+.new_appList li.w520 { width: 520px; }
+.new_appList input { vertical-align: -2px; }
+.new-application .table-class-3 td { line-height: 27px; }
+.new-application .table-class-3 td.td-2 { width: 150px; }
+.inputOther { background: #f9f9f9; border: 1px solid #e5e5e5; }
+.clickLoad { background: #2E95E8; display: inline-block; height: 30px; line-height: 30px; padding: 0 15px; color: #fff; }
+.app-tip-wraper { position: relative; }
+.app-tip-wraper span.app-tip-hover { color: #555; cursor: pointer; }
+.app-tip-text { text-align: left; padding: 5px; line-height: 20px; display: none; position: absolute; background: #fff5e5; border: 1px solid #fec46a; max-width: 80px; top: -8px; color: #f00; font-size: 12px; }
+.app-tip-text i { background: url(../images/leftCorner.gif) no-repeat; width: 7px; height: 11px; position: absolute; right: -7px; top: 11px; display: block; font-size: 0; }
+.app-tip-zindex { z-index: 9999; }
+.first_application_record{ font-family:'微软雅黑'; }
+.first_application_record .table-class-2 td { line-height: 20px; padding: 10px 5px;}
+/*首发申请*/
+.myaccount h2.tabsh2 a.active {background:#0271c6; color:#fff;}
+/****评论****/
+/*common.class*/
+.border1-5 { border: 1px solid #e9e9e9; }
+.bggrey2 { background-color: #e9e9e9; }
+.ff-wryh { font-family: "微软雅黑"; }
+.fgrey1 { color: #a4a4a4; font-style: normal; }
+.fgrey4 { color: #bababa; }
+.bggrey1 { background-color: #f5f5f5; }
+.fb { font-weight: bold; }
+.detailComment .icons { background-image: url("../images/icons.png"); }
+.h-100 { height: 100%; }
+.w-100 { width: 100%; }
+.bordertop4 { border-top: 1px solid #d4d4d4; }
+a.simpleBtn { display: inline-block; height: 21px; padding: 0 7px; background: #003A76; color: #fff; }
+.fred { color: #f00; }
+.mb10 { margin-bottom: 5px; }
+.borderbtm4 { border-bottom: 1px solid #d4d4d4; }
+.bgblue2 { background-color: #4482b6; }
+.detailComment { margin-top: 40px; }
+.detailComment p { padding: 0; }
+.commentHeader { padding-bottom: 17px }
+.commentHeader .divLine { width: 2px; height: 130px; background-position: -460px -415px; display: inline }
+.commentHeader .averageScore { width: 109px; height: 127px; margin-right: 22px }
+.averageScore .aveTitle { height: 40px; line-height: 40px; padding: 0; color: #101010; }
+.averageScore .scoreTxt { height: 37px; line-height: 37px }
+.averageScore .userTotal { height: 30px; line-height: 30px }
+ul.scores { width: 224px }
+ul.scores li { height: 20px; margin-bottom: 7px; float: left }
+ul.scores li label { width: 28px; float: left }
+ul.scores li p { float: left; width: 148px; height: 100% }
+ul.scores li var { margin-left: 15px }
+ul.scores li p span { float: left }
+.commentFormBox { margin-left: 37px; }
+.commentHeader .commentForm { margin-left: 37px }
+.commentForm div.formHeader { width: 308px; height: 18px; line-height: 18px; }
+.commentForm div.pr span.errorMsg { margin-top: 25px; display: none }
+.divTextarea { position: relative; }
+.divTextarea textarea { width: 296px; height: 58px; padding: 5px; border: 1px solid #a9a9a9; }
+.commentForm .commentHandler { height: 24px; line-height: 24px }
+.commentForm .commentHandler .idCode { margin-top: 4px }
+.commentForm .commentHandler .idCode input { width: 80px; height: 20px }
+.commentForm .commentHandler .idCode img { width: 96px; height: 24px; margin-left: 7px }
+.commentBtn { background-color: #197dcb; color: #fff; height: 24px; display: inline-block; line-height: 24px; width: 85px; margin-right: 20px; }
+ul.commentsBox { width: 744px; font: 12px '宋体'; }
+ul.commentsBox li .replyForm textarea { height: 82px; width: 732px }
+ul.commentsBox li .replyForm div.pr span.errorMsg { margin-top: 30px; display: none }
+ul.commentsBox .commentsSub .replyForm textarea { height: 82px; width: 702px; background: #fff; }
+ul.commentsBox li .replyForm .replyHandler { line-height: 24px; height: 24px }
+ul.commentsBox li .replyForm .replyHandler .cancelBtn { height: 24px; padding: 0 16px; margin-left: 28px; color: #003a76; background-color: #ecf2f8; }
+ul.commentsBox li .replyForm .replyHandler .simpleBtn { height: 24px; padding: 0 16px; margin-left: 10px }
+ul.commentsBox li { padding: 19px 0; }
+ul.commentsBox li .avatar { width: 78px; height: 78px; }
+ul.commentsBox li .avatar img { width: 72px; height: 72px; margin-top: 3px; background-position: -3px -585px }
+ul.commentsBox li .commentRight { width: 650px; padding-left: 15px; }
+ul.commentsBox li .commentRight .description { padding: 10px 0; line-height: 16px }
+ul.commentsBox li .commentRight .commentBtm span { margin-right: 40px }
+ul.commentsBox li .commentRight .commentBtm span var { font-size: 12px; font-style: normal; }
+ul.commentsBox li .commentRight .commentBtm a,
+ul.commentsBox .replyForm a.simpleBtn { padding: 0 15px; line-height: 21px }
+ul.commentsBox li .commentRight .starMBox { padding: 2px 0 0 10px; }
+ul.commentsBox li .commentsSub { margin-top: 6px }
+ul.commentsBox li .commentsSub .replyArrow { background-position: -93px -642px; width: 15px; height: 15px; margin-left: 95px }
+ul.commentsBox li .commentsSub ul { padding: 0 15px }
+ul.commentsBox li .commentsSub ul li { padding: 15px 0; }
+ul.commentsBox .commentsSub li .commentRight { width: 620px }
+ul.commentsBox .loadingGIF { margin-top: 33px }
+.emPlugVBox { line-height: 20px; }
+.emPlugVBox .emPlugV { display: inline-block; width: 20px; height: 20px; background: url(../images/plugV.gif) no-repeat; float: left; padding-right: 5px; }
+.emPlugVBox span.fgrey5 { color: #197dcb; font-weight: bold; }
+/*评分星级*/
+.starSBox,
+.starMBox,
+.starBBox { overflow: hidden }
+.starSBox { width: 56px }
+.starMBox { width: 71px }
+.starBBox { width: 86px }
+.starM { width: 14px; height: 14px; float: left }
+.starMBox .starSolid { background-position: -5px -398px }
+.starMBox .starHalf { background-position: -20px -398px }
+.starMBox .starHollow { background-position: -35px -398px }
+.starS { width: 11px; height: 11px; float: left }
+.starSBox .starSolid { background-position: -117px -400px }
+.starSBox .starHalf { background-position: -128px -400px }
+.starSBox .starHollow { background-position: -139px -400px }
+.starB { width: 17px; height: 17px; float: left }
+.starBBox .starSolid { background-position: -59px -398px; cursor: pointer; }
+.starBBox .starHalf { background-position: -75px -398px }
+.starBBox .starHollow { background-position: -92px -398px }
+/*一般翻页*/
+.appPageBox { height: 54px; padding-top: 30px }
+.pagenav { height: 23px; line-height: 23px }
+.pagenav a.selected,
+.pagenav a:hover.selected { background: #003a76; color: #FFF; cursor: default; border: 1px solid #003A76 }
+/*普通日历*/
+#calendarWraper { z-index: 20; border: 1px solid #9bc0e0; background: #fff; }
+.calendar-icons { }
+.calendar-icons-x { }
+.calendarOuter { }
+.calendarInner { }
+.calendarBox { text-align: center; padding: 4px; }
+.calendarBtn { height: 26px; margin: 0 auto; line-height: 26px; background: #2a9fff; }
+.calendarBtn .calendarBtnLi { float: left; height: 26px; width: 110px; text-align: center; color: #fff; font-size: 12px; }
+.calendarBtn .prev,
+.calendarBtn .next { width: 50px; }
+.calendarBtn .prev a,
+.calendarBtn .next a { color: #fff; font-size: 12px; }
+.calendarBtn .prev a:hover { background-position: 0 0; }
+.calendarBtn .next a:hover { background-position: -30px 0; }
+.calendarBtn .calendar-icons { display: block; height: 26px; }
+.calendarWeek { font-weight: bold; padding: 3px 0; }
+.calendarWeek li { float: left; width: 30px; height: 20px; line-height: 20px; }
+.calendarNum { padding: 0 0 5px 0; }
+.calendarNum li { float: left; width: 28px; height: 18px; padding: 1px; overflow: hidden; }
+.calendarNum li a,
+.calendarNum li em { display: block; height: 18px; font-size: 10px; line-height: 18px; color: #bbb; font-family: Arial; font-size: 12px; }
+.calendarNum li a.calendar-icons { color: #000; }
+.calendarNum li a:hover,
+.calendarNum li a.current { background: #cce7ff; }
+.calendarClose {  height: 23px; padding: 5px 0; }
+.calendarClose a { display: block; width: 54px; height: 23px; line-height: 22px; color: #fff; background: #0077cc; text-align:center; }
+.calendarClose a.today { float: left; }
+.calendarClose a.close { float: right; margin:0; text-indent:0; }
+.calendarClose a.clear { float: right; margin:0; text-indent:0; }
+.calendarClose a:hover { background: #fe8800; }
+#resetCalendar {display: inline-block;}
+/*calendar*/
+.calendarWraper { width: 200px; position: absolute; z-index: 9999; border: 1px solid #aaa; background: #fff; padding:0 5px; display: none; }
+.calendarWraper a { display: block; text-decoration: none;   }
+.calendarWraper a:hover,
+.calendarNum li a.current {  }
+.calendarBtn { height: 30px; line-height: 30px; position: relative;  margin-top:5px; }
+.calendarBtn li { height: 100%; text-align: center; color:#fff; }
+.calendarBtn li a { height: 100%; }
+.calendarBtn li a:hover { }
+.calendarBtn .prev,
+.calendarBtn .next {  height: 20px; line-height: 20px; position: absolute; top: 5px; }
+
+.calendarBtn .prev { left: 5px; }
+.calendarBtn .next { right: 5px; }
+.calendarWeek { padding: 3px 4px 3px 0; font-weight: bold; }
+.calendarWeek li { float: left; width: 23px; padding-right: 5px; height: 20px; line-height: 20px; text-align: right; }
+.calendarNum { padding: 3px 4px 8px 0; line-height: 18px; font-family: 'courier new';border-bottom: 1px dashed #aaa; }
+.calendarNum li { float: left; width: 24px; height: 18px; padding: 1px 2px; text-align: right; overflow: hidden; color: #bbb; }
+.calendarNum li a { padding-right: 5px; height: 18px; color: #000; }
+.calendarNum li.curMonth a { color: #ccc; }
+.calendarTime { border-bottom: 1px dashed #aaa; border-left: none; border-right: none; padding: 5px; }
+.calendarTime li i,
+.calendarTime li i b,
+.calendarTime li span{ display: block; float: left; }
+.calendarTime li em{ font-style: normal;}
+.calendarTime li span { width: 40px; }
+.calendarTime li.calendarTimeFirst a{ float: right;  }
+.calendarTime i { width: 140px; border: 1px solid #aaa; background: #d8d8d8; position: relative; height: 4px; top: 9px; }
+.calendarTime i b { width: 17px; height: 11px; position: absolute; top: -4px; border-radius: 3px; border: 1px solid #333; background: #555; left: 50%; cursor: pointer; }
+/*email*/
+.emailColor1 { color: #f26522; }
+.emailColor2 { color: #51a0e3; }
+.emaliMarginTop30 { margin-top: 24px; }
+#emailPlatform { width: 600px; margin: 73px auto 0; padding-bottom: 65px; background: #fff; }
+#emailPlatformHeader { height: 70px; line-height: 70px; background: #51a0e3 url(../images/emailPlatformHeader.png) no-repeat 39px center; padding-left: 89px; font-size: 28px; color: #fff; }
+#emailPlatform p { padding: 2px 40px; font-size: 14px; color: #6e6e6e; }
+/*default scrollbar*/
+.modelSelectOptionBox .viewport { width: 100%; height: 176px; overflow: hidden; position: relative; z-index: 9; }
+.modelSelectOptionBox .overview { width: 100%; }
+.modelSelectOptionBox .scrollbar { position: absolute; background: #aaa; width: 8px; right: 0; top: 0; z-index: 10; }
+.modelSelectOptionBox .track { height: 100%; width: 100%; position: absolute; right: 0; top: 0; }
+.modelSelectOptionBox .thumb { background: #333; width: 100%; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 1px; }
+.modelSelectOptionBox .none { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+/*系统消息 and 小红点*/
+.redPoint,
+.remindMessage,
+.remindMessageActive{  display:inline-block;  position:relative; }
+.redPoint{width:7px; height:7px;background:url(../img/redPoint.png) no-repeat; top:-6px; *top:-9px; left:-3px;}
+.remindMessage,
+.remindMessageActive{ width:20px; height:15px; background:url(../img/remindMessage.png) no-repeat; margin-right:8px; top:2px;  *top:0;  }
+.remindMessageActive{ background-position:-33px 0;}
+.verMiddle { vertical-align: middle !important; }
+.remindTable { width: 100%; }
+.remindTable th,
+.remindTable td { border: 1px solid #fff; padding: 5px 10px; line-height: 30px; }
+.remindTable th { background: #1772b9; text-align: center; color: #fff; }
+.remindTable tr { background: #f0f6fb; }
+.remindTable tr.trEven { background: #d8ebf9; }
+.remindTable td a{ font-size:14px;}
+.remindTable td { white-space: normal; word-break: break-all; vertical-align: top; }
+.btnGroup { border-bottom: 1px dashed #999999; height: 25px; padding: 20px 0; }
+.btnGroup a { display: block; float: left; height: 25px; margin-right: 20px; }
+.btnGroup a * { display: block; float: left; height: 25px; background: url(../img/btnGroup.jpg) repeat-x; cursor: pointer; }
+.btnGroup a i,
+.btnGroup a b { width: 5px; background-repeat: no-repeat }
+.btnGroup a b { background-position: 0 -60px; }
+.btnGroup a span { background-position: 0 -31px; color: #555; padding: 0 15px; }
+/*table.app-table-class-4*/
+.app-table-class-4{ margin:10px 0;}
+.app-table-class-4 th,
+.app-table-class-4 td{ padding:10px; line-height:24px; border:1px solid #333;}
+.app-table-class-4 th{ color:#924109;}
+/*数据查询*/
+.data_query{ height:29px; font:14px '微软雅黑';}
+.data_query dd{ height:29px; line-height:29px; float:left;}
+.data_query dd span{ padding:0 10px 0 0; vertical-align:middle; display: inline-block; height:29px; float:left;}
+.data_query_input{ border:1px solid #aaa; height:17px; line-height:17px; padding:5px; width:110px; float:left;}
+/*底部旧页面替换为新风格*/
+.protectionWraper{ font-size:14px; font-family:'微软雅黑';  padding-bottom:30px;}
+.protectionWraper h1,
+.protectionWraper h2{ color:#101010; }
+.protectionWraper h1{font-size:24px; line-height:70px;  height:70px;}
+.protectionBox{ background:#fff; padding:30px 60px 0;}
+.protectionBox h2{ height:50px; font-size:18px; background:none; margin-bottom:0; padding-left:0; }
+.protectionBox ul{ float:left; width:45%; line-height:26px;}
+.protectionBox ul a{ text-decoration:underline; font-size:14px; color:#005699;}
+.protectionBox p{ text-indent:2em; padding:5px 0; text-align:justify;}
+.protectionBox p.textIndent0{ text-indent:0;}
+a#scrollTop { display: block; width: 45px; height: 49px; background: url(../img/goTop.png) no-repeat 0 0; outline: none; }
+a#scrollTop:hover { background: url(../img/goTopHover.png) no-repeat 0 0; }
+.contactWraper{ background:#fff; min-height:600px; _height:600px; }
+.contactBox{ position:relative;  padding:40px 60px 0 130px; }
+.contactBox i{ position:absolute; display:block; width:45px; height:45px;  background-image: url(../img/contact.png); background-repeat:no-repeat; background-position:0 0; left:65px;}
+.contactBox h3{ font-size:15px; color:#101010; height:24px;}
+.contactBox_0{  padding-left:60px;}
+.contactBox_0 p{border-bottom:1px solid #ddd; padding-bottom:15px; color:#101010;}
+.contactBox_2 i{  background-position:0 -47px; }
+.contactBox_4 i{  background-position:0 -94px;}
+.contactBox_5 i{background-position:0 -141px;}
+.contactBox a{ font-size:14px;}
+.contactBox_5 table{ width:100%;}
+.contactBox_5 td{ width:50%; line-height:24px; height:24px;}
+.errorBox{ width:420px; position:relative; padding:140px 0 200px 120px; margin:0 auto;}
+.errorBox i{ position:absolute; width:90px; height:126px; left:0; background: url(../img/errorBox.jpg) no-repeat; }
+.errorBox dt{ font-size:24px; color:#101010; line-height:40px;}
+.errorBox dd{ font-size:15px; color:#7d7d7d; line-height:24px;}
+.errorBox dd a{ color:#005699; text-decoration:underline; font-size:15px;}
+/*结算查询*/
+.querySettle{ height:29px; padding:15px 0; }
+.querySettle li{ float:left; height:29px; line-height:29px; padding-right:20px;}
+.modelSelectOptionBox li{ float:none;}

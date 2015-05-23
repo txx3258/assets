@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+ * ---------------------------------------------
+ * website:
+ * filename: frame.css
+ * revision: 1.0
+ * createdate: 2013-09-19
+ * author: lc
+ * description: 框架样式
+ * ---------------------------------------------
+ */
+#my-app-container { background: #eee; padding: 0px 0 50px; }
+#my-app-content { margin: 0 auto; background: #fff url(../images/my-app-bg.gif) repeat-y; border: 1px solid #c8c8c8; border-left: none; width: 999px; min-height:600px; _height:600px; }
+/*frane left*/
+#my-app-nav { width: 202px; float: left; position: relative; padding: 0 1px 20px; }
+#my-app-nav a { display: block; }
+.my-app-nav ul { height: 40px; padding: 5px; position: relative; z-index: 100; }
+.my-app-nav ul li { float: left; width: 96px; height: 40px; text-align: center; }
+.my-app-nav ul li a { height: 40px; font: 16px/40px '微软雅黑'; color: #0271c6; }
+.my-app-nav ul li.active a { color: #fff; }
+#hua-dong-bg { width: 100px; height: 40px; position: absolute; background: url(../images/icon-1.gif) no-repeat -59px -32px; top: 5px; left: 5px; z-index: 99; }
+#sub-nav { font-size: 14px; font-family: '微软雅黑'; }
+#sub-nav h1 { height: 34px; line-height: 34px; padding-left: 20px; background: #d8ebf9 url(../images/icon-2.gif) no-repeat 179px -28px; border-top: 0px solid #c8c8c8; cursor:pointer;  }
+#sub-nav h1.h1-class{ border-bottom:1px solid #c8c8c8;}
+#sub-nav ul{ display:none; border-top: 1px solid #c8c8c8;}
+#sub-nav ul.show-class{ display:block;}
+#sub-nav ul.ul-class{ border-top:none;}
+#sub-nav ul li { line-height: 30px; height:30px; }
+#sub-nav ul li a { padding-left: 33px; height:30px; color:#1c82bb; }
+#sub-nav ul li a:hover,
+#sub-nav ul li a.active { background: #197dcb; color: #fff; }
+/*frame right*/
+#my-app-con  { /*width:795px;*/ float:left; width:757px; padding:0 18px 0 20px; }
+.round{width:22px;height:16px;display: inline-block;font-size:20px;line-heigth:16px;text-align:center;color:#f00;text-decoration:none;position: absolute;left: 50px;top: -10px;}

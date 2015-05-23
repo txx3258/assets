@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+ * ---------------------------------------------
+ * website:
+ * filename: ie678.css
+ * revision: 1.0
+ * createdate: 2013-09-19
+ * author: lc
+ * description: 针对ie678的样式
+ * ---------------------------------------------
+ */
+.btn-class { background: url(../images/icon-1.gif) no-repeat 0 -32px; }
+.form-all-checked-btn { background: url(../images/icon-1.gif) no-repeat 0 -62px; border: none; }
+.app-title ul li a span { padding: 0; display: block; position: absolute; top: 15px; _top: 14px; height: 15px; text-align: center; line-height: 15px; cursor:pointer; }
+.app-title .span-1,
+.app-title .span-1-active{ padding-right:21px;}
+.app-title .span-2,
+.app-title .span-2-active{ padding-right:31px;}
+.app-title .span-3,
+.app-title .span-3-active{ padding-right:35px;}
+.app-title .span-4,
+.app-title .span-4-active{ padding-right:42px;}
+.app-title .span-1 span,
+.app-title .span-1-active span { width: 18px; right:0; }
+.app-title .span-2 span,
+.app-title .span-2-active span { width: 25px; right:0;  }
+.app-title .span-3 span,
+.app-title .span-3-active span { width: 32px; right:0; }
+.app-title .span-4 span,
+.app-title .span-4-active span { width: 39px;  right:0; }
+.app-title .span-1 span { background: url(../images/icon-1.gif) no-repeat 0 -16px; }
+.app-title .span-2 span { background: url(../images/icon-1.gif) no-repeat -19px -16px; }
+.app-title .span-4 span { background: url(../images/icon-1.gif) no-repeat -45px -16px; }
+.app-title .span-3 span { background: url(../images/icon-1.gif) no-repeat -85px -16px; }
+.app-title .span-1-active span { background: url(../images/icon-1.gif) no-repeat; }
+.app-title .span-2-active span { background: url(../images/icon-1.gif) no-repeat -19px 0; }
+.app-title .span-4-active span { background: url(../images/icon-1.gif) no-repeat -45px 0; }
+.app-title .span-3-active span { background: url(../images/icon-1.gif) no-repeat -85px 0; }
+/*上传应用*/
+.upload-file{ background:url(../images/icon-1.gif) no-repeat 0 -130px; border:none; height:29px; padding:0; }
+.upload-next{ background:url(../images/icon-1.gif) no-repeat 0 -88px; border:none; height:41px; }
+.table-class-3 .input-class-1{ background-position:0 -160px;}
+.table-class-3 .input-class-2{ background:url(../images/icon-1.gif) no-repeat 0 -201px;}

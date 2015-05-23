@@ -1,0 +1,10 @@
+.tipsNo {border: 1px solid #CCC; background: #FFF url(../images/ico_tips_no.gif) no-repeat left top; padding: 40px 50px 50px 170px;}
+.tipsNo ul {border-left: 1px dashed #CECECE; padding: 0 0 0 30px; height: 200px; line-height: 20px;}
+.tipsNo ul .bt {font-family: 微软雅黑; font-size: 20px; line-height: 28px; font-weight: bold; color: #DD0000;}
+.tipsNo ul .ts {color: #888;}
+.tipsNo ul .xx {padding: 30px 0 0 0;}
+.tipsYes {border: 1px solid #CCC; background: #FFF url(../images/ico_tips_Yes.gif) no-repeat left top; padding: 40px 50px 50px 170px;}
+.tipsYes ul {border-left: 1px dashed #CECECE; padding: 0 0 0 30px; height: 200px; line-height: 20px;}
+.tipsYes ul .bt {font-family: 微软雅黑; font-size: 20px; line-height: 28px; font-weight: bold; color: #43A63B;}
+.tipsYes ul .ts {color: #888;}
+.tipsYes ul .xx {padding: 30px 0 0 0;}

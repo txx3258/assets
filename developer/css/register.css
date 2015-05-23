@@ -1,0 +1,15 @@
+﻿.main {border: 1px solid #DDD; background: #FFF; padding: 20px;}
+h3 { font-size: 14px; font-weight: bold; padding: 0 20px 10px 20px;}
+
+.xieyi {margin: 20px 0 0 0; border: 1px solid #CCC; padding: 20px;}
+.xieyi h3 {padding: 0 0 10px 0;}
+.xieyi p { height: 200px; overflow-y: auto;}
+.fun { height: 100%; overflow: hidden; padding: 10px 0 0 0; text-align: center;}
+
+.lsBd1 {height: 100%; overflow: hidden; clear: both; padding: 0 15px 15px 15px;}
+.lsBd1 li {overflow: hidden; clear: both; line-height: 24px; height: 24px; margin: 15px 0 0 0;}
+.lsBd1 li label { float: left; display: inline;}
+.lsBd1 li .bt {width: 100px;}
+.lsBd1 li .nr {width: 320px;}
+.lsBd1 li .ts {color: #888;}
+.lsBd1 .cc { background: #FFFED0; border: 1px solid #FCE29A; margin: 5px 0 0 0; height: 30px; line-height: 30px; padding: 0 0 0 104px; color: #DD0000;}

@@ -1,0 +1,253 @@
+.jj *{position:relative;font:14px 微软雅黑; line-height:1.5em;}
+.blk{margin:1em 0 2em; padding:1em;}
+.tit1{font-size:25px; line-height: 3em; color:#191919;}
+.tit2{font-size:1.5em;  line-height: 1.5em;color:#191919;}
+a{font-size:1rem;}
+a, a:active, a:hover{color:#27b7b8;}
+.lk1{color:#27b7b8; border:2px solid #27b7b8; border-radius:1.5em; height:1.5em; padding:0 1em; float:right; margin:0.5em; z-index:1;}
+.row{overflow:hidden;}
+.row > *{
+	float:left;
+}
+.row2{overflow:hidden; text-align:center;}
+.cap{  padding: 1em; text-align: center;}
+.hex{
+	display:inline-block;
+	width:150px;
+	height:180px;
+	margin: 0 5px;
+	text-align: center;
+	background:url(../images/jingjia/jj_71.jpg) no-repeat;
+	background-size: 150px 180px;
+}
+.hex img{  top: 45px;}
+
+.jj_top_banner{
+	width:100%;
+	height:371px;
+	background:#27b7b8 url(../images/jingjia/jj_bg_06.jpg) 0px -2px repeat;
+	border-bottom:#7ed4d4;
+}
+.jj_top_banner_inner{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	background:url(../images/jingjia/jj_03.jpg) no-repeat;
+}
+.jj_top_banner_inner a{
+	display:block;
+	position:absolute;
+  	left: 25px;
+  	bottom: 67px;
+  	width: 238px;
+  	height: 48px;
+}
+
+.jj_content{
+	width:900px;
+	margin:0 auto;
+}
+.blk_syno p{color:#474747;}
+.cpd{
+	text-align:center;
+}
+.cpd p{
+	color:#2966b9;
+	background-color:#d2e4fd;
+	border-radius:3px;
+	display:inline-block;
+	padding:0 0.5em;
+}
+.blk_alt{
+	background-color:#f9fafc;
+}
+.trait_blk{
+	width:33.333%;
+	padding:1em;
+	text-align:center;
+	  box-sizing: border-box;
+}
+.trait_blk p, .proc_blk p{
+	line-height: 1.5em;
+	color:#757575;
+}
+.trait_logo{
+	height:132px;
+	background:transparent no-repeat center center;
+}
+.trait_tit{
+	line-height:3em;
+}
+.trait1 .trait_logo{
+	background-image:url(../images/jingjia/jj_11.jpg);
+}
+.trait2 .trait_logo{
+	background-image:url(../images/jingjia/jj_13.jpg);
+}
+.trait3 .trait_logo{
+	background-image:url(../images/jingjia/jj_15.jpg);
+}
+.pos .pos-box{
+	display:inline-block;
+	border:1px solid #d6d6d6;
+	border-radius:5px;
+}
+.pos_logo{
+	height:309px;
+	width:277px;
+	background:transparent no-repeat center center;
+}
+.pos1 .pos_logo{
+	background-image:url(../images/jingjia/jj_07.jpg);
+}
+.pos2{
+	width:66%;
+}
+.pos2 .pos_logo{
+	width:541px;
+	background-image:url(../images/jingjia/jj_10.jpg);
+}
+.pos2 .tit2{
+	border: 1px solid #d6d6d6;
+	margin-top: -4px;
+  	background: white;
+  	padding: 5px 0;
+}
+
+.reject_logo{
+	height:107px;
+	background:transparent no-repeat center center;
+}
+.reject1 .reject_logo{
+	background-image:url(../images/jingjia/jj_65.jpg);
+}
+.reject2 .reject_logo{
+	background-image:url(../images/jingjia/jj_62.jpg);
+}
+.reject3 .reject_logo{
+	background-image:url(../images/jingjia/jj_59.jpg);
+}
+
+
+.proc_blk{
+	width:36%;
+	height: 8em;
+	border:1px #d1d1d1 solid;
+	border-radius:5px;
+	padding:2em;
+	background:#f9fafc;
+}
+.proc-box:before,
+.proc-box:after{
+	content:'';
+	display:block;
+	width:12px;
+	height:10px;
+	position:absolute;
+	background-image:url(../images/jingjia/jj_29.jpg);
+	z-index: 1;
+}
+.proc-box1:before{
+	left:10%;
+	bottom: 1px;
+}
+.proc-box1:after{
+	right:10%;
+	bottom: 1px;
+}
+.proc-box2:before{
+	left:50%;
+	top: -9px;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.proc-box2:after{
+	display:none;
+}
+.proc_body{
+	margin-right:30px;
+}
+.proc_blk a{
+	text-decoration:underline;
+}
+.proc_blk .tit2{
+	margin-bottom:0.5em;
+}
+.proc_blk .tit2:before{
+	display:inline-block;
+	margin-right:0.5em;
+	content:'';
+	height:30px;
+	vertical-align:middle;
+	background:transparent no-repeat;
+}
+.proc-box1{
+	padding-bottom:10px;
+}
+.proc1{
+	float:left;
+	margin-left: 1em;
+}
+.proc1 .tit2:before{
+	width:16px;
+	background-image:url(../images/jingjia/jj_21.jpg);
+}
+.proc2 .tit2:before{
+	width:29px;
+	background-image:url(../images/jingjia/jj_45.jpg);
+}
+.proc3 .tit2:before{
+	width:29px;
+	background-image:url(../images/jingjia/jj_24.jpg);
+}
+.proc2{
+	  margin: 0 auto;
+	  height: 9em;
+}
+.proc3{
+	float:right;
+	margin-right: 1em;
+}
+.proc-line{
+	height:4px;
+	margin: 20px 0;
+	background:#27b7b8;
+	border-radius:2px;
+}
+.proc-line:after{
+	content:'';
+	display:block;
+	width:20px;
+	height:35px;
+	position:absolute;
+	background-image:url(../images/jingjia/jj_33.jpg);
+	right:-20px;
+	top:-17px;
+}
+.circle{
+	position:absolute;
+	width:23px;
+	height:23px;
+	margin-top: -11.5px;
+	background-image:url(../images/jingjia/jj_36.jpg);
+}
+.circle1{
+	left:10%;
+	margin-left: -5px;
+}
+.circle2{
+	left:50%;
+	margin-left: -5px;
+}
+.circle3{
+	right:10%;
+	margin-right: -5px;
+}
+
+.contact-blk{
+	width:50%;
+}
+.contact-blk-sm{
+	display:inline-block;
+	width:40%;
+}

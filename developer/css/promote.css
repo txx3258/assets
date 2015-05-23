@@ -1,0 +1,329 @@
+.first-notice{
+	height:250px; overflow:auto;
+}
+.adp-first .slide_box {padding-bottom: 0px;}
+.adp-first .sub_title_hidden {width: 720px;margin-left: 0;}
+
+#idCard .Validform_checktip,#catSecond .Validform_checktip,#sellingApp .Validform_checktip{ position: absolute; top:0px; left: 196px;}
+
+.adp-first .sub_title { width: auto; }
+.sub_title{width:auto; margin-top:20px; margin-left:0;font-weight: bold;}
+.sub_title h2{ width: auto; }
+.btnBlue{display: inline-block;background:rgb(44,142, 239); color:white; border-radius: 5px;border: 0;padding: 6px 20px;cursor: pointer; font-weight: bold;}
+.btnBlue2{background:rgb(44,142, 239); color:white; border: 0;padding: 6px 20px;cursor: pointer; font-weight: bold;}
+.btnBlue.disabled, .btnBlue2.disabled {
+	background: #ccc;
+	cursor: default;
+}
+#subBox{text-align:center;}
+#subBox2{margin-top: 30px;}
+#btn_sub{font-size:14px;padding:10px 36px}
+.upload_box li{float: left;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    overflow: hidden;
+    padding-bottom: 20px;}
+.upload_box li.midBlock{margin:0 100px}
+.upload_box .caption:before{content:'* '; color:red;}
+.upload_box .Validform_checktip{
+	bottom: -60px;
+    position: absolute;
+    background:none;
+    padding-left: 0px;
+}
+.iconuploadbox2, .iconuploadbox2 span{
+	overflow:visible;
+}
+.greenBox{
+	border:1px solid rgb(41, 208, 103); background:rgb(233, 253, 251);padding:15px;
+}
+
+.myaccount a{text-decoration:underline;}
+.myaccount a:hover{color:black;}
+
+.table-class-3 td, .app-table-class-3 th, .app-table-class-3 td{
+	padding:15px 0;
+}
+
+.app-table-class {
+	background: white;
+}
+.app-table-class-2 th {
+	background: rgb(248, 248, 248);
+}
+.app-table-class {
+	text-align:center;
+}
+.app-table-class td {
+	vertical-align:middle;
+}
+		
+.prompt{
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:200px;
+	margin-left:-100px;
+	padding:20px;
+	border:1px solid #787878;
+	color:#787878;
+	background:white;
+	z-index:99;
+	display:none;
+	margin-top: -70px;
+}
+.prompt .promptBtns{
+	margin-top:20px;
+	text-align:center;
+}
+#app-title ul li {
+	width: 50%;
+	height: 37px;
+	line-height: 45px;
+}
+#app-title ul li.active {
+	border-bottom: 5px solid #feae00;
+	background: #f3e8e2;
+	font-weight:bold;
+}
+#app-title ul li .num{
+	font-size: 24px;
+	vertical-align: top;
+	background: none;
+	color: black;
+	font-style: italic;
+	line-height: 40px;
+}
+.modelSelectBox{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.showcase{
+	position:relative;
+	width:49%;
+	box-sizing:border-box;
+	float:left;
+	padding: 10px 50px;
+	margin-bottom: 1em;
+}
+.showcase:nth-child(odd){
+	margin-right:1%;
+}
+.showcase:nth-child(even){
+	margin-left:1%;
+}
+.showcase p{
+	line-height:3em;
+}
+.showcase-hl{
+	color:#ff8b00;
+}
+.showcase2{
+	width:32%;
+	padding: 10px 5px;
+}
+.showcase:nth-child(odd){
+	margin-right:auto;
+}
+.showcase:nth-child(even){
+	margin-left:auto;
+}
+.showcase2:nth-child(3n+1){
+	margin-right:1%;
+}
+.showcase2:nth-child(3n+2){
+	margin:0 1%;
+}
+.showcase2:nth-child(3n){
+	margin-left:1%;
+}
+.alert-low:after{
+	content:'低于底价';
+	color:#e21d39;
+}
+.tbl{
+	display:table;
+	width:100%;
+	  border-spacing: 0 1em;
+}
+.row{
+	display:table-row;
+}
+.cell{
+	display:table-cell;
+	text-align:center;
+	  vertical-align: top;
+}
+.cell-inner{
+	width:9em;
+	display:inline-block;
+}
+.kw{
+	width:100%;
+	text-align:center;
+	border-radius:3px;
+	background:#e9e9e9;
+    line-height: 2em;
+	cursor:pointer;
+	color:black;
+}
+.kw.on{
+	background:#0371c6;
+	color:white;
+}
+.showcase3{
+	width:100%;
+	padding:0 10px;
+	float:none;
+	text-align:left;
+	display:none;
+}
+.showcase3:nth-child(odd),
+.showcase3:nth-child(even){
+	margin:0;
+	margin-top:0.5em;
+}
+.showcase3 b{
+	font-weight:bold;
+}
+.showcase p{
+	line-height:2em;
+	margin:0.5em 0;
+}
+.btnShow{
+	position:relative;
+	left:37px;
+	top:-7px;
+	text-align:right;
+}
+.btnShow1{
+	position:relative;
+	top:-7px;
+	text-align:right;
+}
+.showBox{
+	display:none;
+	position:absolute;
+	top:30px;
+	right:10px;
+	background:white;
+	border:1px solid #c8c8c8;
+	padding:1em;
+	line-height: 2em;
+	width:200px;
+	z-index: 1;
+}
+.showBox_btnView{
+	text-align:center;
+}
+.showBox_img{
+	width:100%;
+}
+.priceInput{
+	width: 80px;
+	height: 22px;
+}
+.leftSpace{
+	margin-left:50px;
+}
+.leftSpace1{
+	margin-left:40px;
+}
+.sub-title2{
+	font-weight:bold; font-size:18px; line-height: 2em;
+}
+
+.selectBox2{
+	width: auto;
+	border: 0;
+	background: rgb(44, 149, 232);
+	color: white;
+	padding: 0 5px;
+	margin-right: 0;
+}
+.selectBox2 .modelSelectText{
+	padding-right: 37px;
+}
+.boxSpan{
+	display:inline-block;
+	vertical-align:bottom;
+}
+.app-table-class td span {
+	color:black;
+}
+.app-table-class-3 .Validform_checktip{
+	display:none;
+}
+/*
+.iconuploadbox{
+	height: auto;
+	width: auto;
+}
+*/
+.iconuploadbox_mask{
+	display:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:3;
+	background:black;
+	opacity:0.3;
+	border-radius: 5px;
+}
+.contract{
+	line-height:2em;
+}
+.contract b{
+	font-weight:bold;
+}
+.contract em{
+	font-weight:bold;
+	text-decoration:underline;
+	font-size: 1em;
+}
+.contract ol{
+	counter-reset: item;
+	margin-bottom: 1em;
+}
+.contract li{
+	padding-left: 2em;
+}
+.contract li li{
+	padding-left: 3em;
+}
+.contract li li li{
+	padding-left: 4em;
+}
+.contract LI:before {
+	content: counters(item, ".") " ";
+	counter-increment:item;
+	font-weight:bold;
+	display: inline-block;
+	width:2em;
+	margin-left: -2em;
+}
+.contract LI LI:before {
+	width:3em;
+	margin-left: -3em;
+}
+.contract LI LI LI:before {
+	width:4em;
+	margin-left: -4em;
+}
+.contract .upload_box .caption{
+	height:20px;
+}
+
+.upload_box .slide_box{
+	float:right; width: 490px; padding: 10px;margin-bottom: 36px;	
+}
+
+.validateWarnMessage{
+	color: #EA9906;
+}
+.validateWarnMessage:before {
+	content: '\2762';
+	color: #EA9906;
+	margin-right: 5px;
+}

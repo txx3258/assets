@@ -1,0 +1,362 @@
+
+.calendarCompare {
+    background: url("images/AvatarUI/calendar/calendar_bg.png") no-repeat scroll 162px center #DCEEFC;
+    border: 1px solid #AEC6E0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 8px;
+    padding: 3px;
+    width: 185px;
+}
+.calendarCompare input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0;
+    transition: none 0s ease 0s;
+    width: 160px;
+}
+.calendarCompare input:focus {
+    border: medium none;
+    box-shadow: none;
+    transition: none 0s ease 0s;
+}
+.calendarCompareActive {
+    background-position: 228px center;
+    margin-top: -8px;
+    width: 250px;
+}
+.calendarCompareActive input.originDate {
+    font-size: 18px;
+    height: 18px;
+    width: 225px;
+}
+.calendarCompareActive label {
+    float: left;
+    line-height: 22px;
+    width: 65px;
+}
+.calendarCompareActive input.compareDate {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+}
+.calendarCompareActive .compareDateWrap {
+}
+.calendarCompareWrapper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #9BC0E0;
+    box-shadow: 0 0 5px 0 #333333;
+    color: #444444;
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 2147483647;
+}
+.calendarCompareWrapper a {
+    color: #008FD2;
+    text-decoration: underline;
+    font-size:12px;
+    text-align:center;
+}
+.calendarCompareWrapper .calendarCompareCon {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    height: 180px;
+    overflow: hidden;
+}
+.calendarCompareWrapper .calendarCompareCon .monthItem {
+    display: inline-block;
+    margin: 4px;
+    position: relative;
+    vertical-align: top;
+    width: 168px;
+    float:left;
+}
+.calendarCompareWrapper .caption {
+    background:url(../images/caption-bg.jpg) repeat-x;
+    color: #FFFFFF;
+    height: 24px;
+}
+.calendarCompareWrapper .caption div {
+	*float:left;
+	*padding-left:2px;
+    display: inline-block;
+    vertical-align: top;
+}
+.calendarCompareWrapper .caption div a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Lucida Grande;
+    height: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    width: 20px;
+}
+.calendarCompareWrapper .caption a.monthName {
+    width: 72px;
+}
+.calendarCompareWrapper .caption a.monthName:hover {
+    color: #F0FF00;
+    text-decoration: underline;
+}
+.calendarCompareWrapper .weekName {
+    padding: 4px 0;
+}
+.calendarCompareWrapper .weekName span {
+    background: none repeat scroll 0 0 #CCE7FF;
+    display: inline-block;
+    font-weight: normal;
+    line-height: 20px;
+    width: 24px;
+}
+.calendarCompareCon table .day {
+    color: #8C8C8C;
+    cursor: default;
+    display: block;
+    height: 20px;
+    text-decoration: none;
+    width: 24px;
+}
+.calendarCompareCon table .nexMonth, .calendarCompareWrapper .calendarCompareCon table .lastMonth {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #FFFFFF;
+}
+.calendarCompareCon table .toMonth {
+    color: #004499;
+    cursor: pointer;
+}
+.calendarCompareCon table .toMonthHover {
+    background: none repeat scroll 0 0 #EBF4FC;
+}
+.calendarCompareCon table .checked {
+    background: none repeat scroll 0 0 #CCE7FF;
+}
+.calendarCompareCon table .checkedCompare {
+    background: none repeat scroll 0 0 #FFCC33;
+}
+.calendarCompareCon table .checkedCompareCross {
+    background: none repeat scroll 0 0 #00B1AB;
+}
+.calendarCompareWrapper .selectList {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 2px 10px;
+    position: relative;
+}
+.calendarCompareWrapper .selectListYear {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border-top: 1px dashed #CCCCCC;
+}
+.calendarCompareWrapper .selectList a {
+    color: #333333;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    width: 35px;
+}
+.calendarCompareWrapper .selectList a.hover {
+    background: none repeat scroll 0 0 #E2F7FE;
+    text-decoration: none;
+}
+.calendarCompareWrapper .selectList a.selected {
+    background: none repeat scroll 0 0 #B4E9FD;
+}
+.calendarCompareWrapper .selectList a.prevA {
+    color: #2A9EFF;
+    font-family: Lucida Grande;
+    font-weight: bold;
+    height: 16px;
+    left: 0;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 20px;
+    width: 16px;
+}
+.calendarCompareWrapper .selectList a.nextA {
+    color: #2A9EFF;
+    font-family: Lucida Grande;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: 20px;
+    width: 16px;
+}
+.calendarCompareWrapper .selectList a.prevA:hover, .calendarCompareWrapper .selectList a.nextA:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #111111;
+}
+.calendarCompareWrapper .selectPanel {
+    display: none;
+    height: 170px;
+    left: -3px;
+    position: absolute;
+    top: -3px;
+    width: 174px;
+}
+.calendarCompareWrapper .selectPanelTop {
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 174px;
+}
+.calendarCompareWrapper .selectPanel .botBtn {
+    background: none repeat scroll 0 0 #DDDDDD;
+    height: 25px;
+}
+.calendarControl {
+    background: none repeat scroll 0 0 #F6F6F6;
+    float: left;
+    height: 170px;
+    padding: 8px;
+    text-align: left;
+    width: 200px;
+}
+.calendarControl li {
+    padding: 3px 0;
+}
+.calendarControl input.text {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #A3A3A3 #CCCCCC #CCCCCC #A3A3A3;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #D6D6D6 inset;
+    color: #333333;
+    font: 12px arial;
+    height: 22px;
+    margin: 1px;
+    padding: 0 2px 0 3px;
+    transition: none 0s ease 0s;
+    vertical-align: middle;
+    width: 80px;
+}
+.calendarControl input.textDefault {
+    border: 1px solid #DDDDDD;
+    color: #AAAAAA;
+}
+.calendarControl input.textActive {
+    border: 2px solid #0077CC;
+    margin: 0;
+}
+.calendarControl .compareDate input.textActive {
+    border: 2px solid #FFCC33;
+    margin: 0;
+}
+.calendarControl select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #9A9A9A;
+    color: #000000;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+}
+.calendarControl select.disabled {
+    border: 1px solid #DDDDDD;
+    color: #AAAAAA;
+}
+.calendarControl .btnPrimary {
+    margin-right: 15px;
+}
+.calendarControl .compareSwitch {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.calendarControl .compareDate {
+    display: none;
+}
+.calendarControl .operate {
+    border-top: 1px solid #DDDDDD;
+    margin-top: 10px;
+    padding: 0;
+}
+.calendarControl .operateCon {
+    border-top: 1px solid #FFFFFF;
+    padding-top: 5px;
+}
+.yearInterval {
+    float: right;
+    height: 25px;
+    width: 120px;
+}
+.monthInterval {
+    float: left;
+    height: 25px;
+    width: 190px;
+}
+.monthInterval a {
+    cursor: pointer;
+    display: block;
+    float: left;
+    margin: 2px 1px 2px 2px;
+    padding: 0 2px;
+    text-decoration: none;
+}
+.yearInterval a {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 3px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 38px;
+}
+.monthInterval a.active, .yearInterval a.active {
+    background: none repeat scroll 0 0 #0077CC;
+    color: #FFFFFF;
+}
+.monthInterval a:hover, .yearInterval a:hover {
+    background: none repeat scroll 0 0 #0077BB;
+    color: #FFFFFF;
+}
+.yearInterval .yearMiddle {
+    height: 25px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+.yearInterval .yearLeftBtn, .yearInterval .yearRightBtn {
+    color: #008FD2;
+    cursor: pointer;
+    float: left;
+    font-family: Lucida Grande;
+    line-height: 27px;
+    margin-top: 1px;
+    text-align: center;
+    width: 20px;
+}
+.yearInterval .btnsReadonly, .monthInterval .btnsReadonly {
+    color: #DDDDDD;
+    cursor: text;
+}
+
+input.calendar {
+    background: url("images/AvatarUI/calendar/calendar_bg.png") no-repeat scroll 162px center #DCEEFC;
+    border: 1px solid #AEC6E0;
+    color: #676769;
+    cursor: pointer;
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding: 3px;
+    width: 190px;
+}

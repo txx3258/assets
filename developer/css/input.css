@@ -1,0 +1,31 @@
+@charset
+"utf-8"
+;
+/* CSS Document */
+input, textarea {
+
+star :
+
+expression
+(
+onmouseover
+
+=
+function
+(
+)
+{
+    this . style . backgroundColor = "#E1E1E1"
+}
+,
+onmouseout
+
+=
+function
+(
+)
+{
+    this . style . backgroundColor = "#fff"
+}
+)
+    }

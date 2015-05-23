@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*
+ * ---------------------------------------------
+ * website: 
+ * filename: reset.css
+ * revision: 1.0
+ * createdate: 2014-01-15
+ * author: lc
+ * description: reset style
+ * ---------------------------------------------
+ */
+html,
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+input,
+p,
+th,
+td,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin: 0; padding: 0; }
+body { font: 12px/200% '宋体'; color: #555; text-align: left; }
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6 { font-size: 100%; }
+select,
+input,
+table,
+td { font-size: 12px; }
+table { border-collapse: collapse; }
+caption,
+strong,
+th,
+b,
+em,
+i { font-style: normal; font-weight: normal; }
+ul,
+li { list-style: none; }
+caption,
+th { text-align: left; }
+img { border: none; }
+:focus,
+a { outline: none; text-decoration: none; }
+a:link,
+a:visited { color: #555; }
+a:hover,
+a:active,
+a:focus { color: #c00; }
+:focus { background: none; }
+.clear { clear: both; }

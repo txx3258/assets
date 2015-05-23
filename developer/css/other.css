@@ -1,0 +1,56 @@
+@charset "utf-8";
+/*
+ * ---------------------------------------------
+ * website:
+ * filename: frame.css
+ * revision: 1.0
+ * createdate: 2013-09-19
+ * author: lc
+ * description: 框架样式
+ * ---------------------------------------------
+ */
+/*frameHeaderWraper*/
+.frameHeaderWraper { background: #005699; height: 72px; }
+.frameHeader { height: 100%; position: relative; }
+.frameHeader h1 { height: 50px; padding: 10px 0 12px 55px; font: 25px/50px '微软雅黑'; background: url(../images/logo.jpg) no-repeat 0 10px;  }
+.frameHeader h1 a { color: #fff; font-size:25px; }
+.frameHeader ul { height: 72px; padding-left: 60px; }
+.frameHeader ul li { float: left; font-size: 18px; padding-right: 1px; }
+.frameHeader ul li span,
+.frameHeader ul li span a { display: inline-block; }
+.frameHeader ul li span { padding: 0 0 3px; height: 69px; }
+.frameHeader ul li span a { padding: 0 16px; line-height: 69px; color: #95caf3; font-size:18px; }
+.frameHeader ul li span a:hover,
+.frameHeader ul li span a.current { color: #fff; height: 63px; background: #014f8c; border-bottom: 3px solid #ffae00; line-height: 63px; padding-top: 3px; }
+.frameHeader p a { display: block; color: #95caf3; padding-right: 19px; background: url(../images/login.jpg) no-repeat right center; font-size: 14px; width: 160px; height: 72px; }
+.frameHeader p a span { display: block; width: 160px; height: 72px; line-height: 72px; overflow: hidden; }
+.frameHeader p a:hover { color: #fff; }
+/*frameContainerWraper*/
+.frameContainerWraper { padding: 20px 0 50px; background: #EEE; }
+.frameContainer { border: 1px solid #C8C8C8; background: #fff; }
+.frameContainer_2 { }
+.frameContainer_2_title { font-size: 24px; line-height: 70px; height: 70px; color: #101010; }
+.frameNav { border-right: 1px solid #C8C8C8; width: 199px; }
+.frameNav a { display: block; }
+.frameNavTop { position: relative; }
+.frameNavTop ul { height: 40px; padding: 5px; position: relative; z-index: 100; }
+.frameNavTop ul li { width: 90px; height: 40px; text-align: center; }
+.frameNavTop ul li a { display: block; height: 40px; font: 16px/40px '微软雅黑'; color: #0271c6; }
+.frameNavTop ul li a.active,
+.frameNavTop ul li a:hover { color: #fff; background: url(../images/frameNavTop.png) no-repeat; }
+.frameNavList { font-size: 14px; font-family: '微软雅黑'; }
+.frameNavList h1 { height: 34px; line-height: 34px; padding-left: 20px; background: #d8ebf9 url(../images/frameNavList.gif) no-repeat 170px center; border: 1px solid #c8c8c8; border-left: none; border-right: none; cursor: pointer; color: #555555; margin-top: -1px; }
+.frameNavList ul { display: none; pading-bottom: 5px; }
+.frameNavList ul.showContent { display: block; }
+.frameNavList ul li { line-height: 36px; height: 36px; padding-bottom: 1px; }
+.frameNavList ul li a { padding-left: 33px; height: 36px; font-size:14px; }
+.frameNavList ul li a span { float: left; }
+.frameNavList ul li a:hover,
+.frameNavList ul li a.active { background: #197dcb; color: #fff; }
+.frameContent { width: 760px; min-height:600px; _height:600px; padding: 0 18px 0 20px; border-left: 1px solid #C8C8C8; margin-left: -1px; }
+/*frameFooter*/
+.frameFooter { text-align: center; height: 104px; color: #7f7f7f; font-size: 14px; padding-bottom: 36px; background: #e4e4e4; }
+.frameFooter a { color: #7f7f7f; padding: 0 5px; }
+.frameFooter a:hover { color: #09F; }
+.frameFooter p { line-height: 22px; }
+.frameFooter .footerPara { line-height: 60px; }

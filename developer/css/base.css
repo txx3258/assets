@@ -1,0 +1,712 @@
+/* 全局 */
+html, body {
+    overflow-x: hidden;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, em, blockquote, pre, fieldset, form, input, textarea, marquee {
+    margin: 0;
+    padding: 0;
+    utline: none;
+}
+
+fieldset, abbr, acronym, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, th, var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+caption {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+q:before, q:after {
+    content: "";
+}
+
+/* 默认 */
+body {
+    font: 12px / normal Arial, 宋 体;
+    color: #555;
+    line-height: 18px;
+    background: #FFF url(../images/body_bg.gif) repeat-x left top;
+}
+
+a {
+    color: #1c82bb;
+    text-decoration: none;
+    blr: expression(this.onFocus=this.blur());
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #DD0000;
+}
+
+/* 浮动 */
+.left {
+    float: left;
+    display: inline;
+}
+
+.right {
+    float: right;
+    display: inline;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.show {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.clearfix:after {
+    display: block;
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/* 字体大小*/
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+/* 字体属性 */
+.fb {
+    font-weight: bold;
+}
+
+.fl {
+    text-align: left
+}
+
+.fc {
+    text-align: center
+}
+
+.fr {
+    text-align: right
+}
+
+.black, .black a, a.black {
+    color: #555;
+}
+
+.white, .white a, a.white {
+    color: #FFF;
+}
+
+.red, .red a, a.red {
+    color: #DD0000;
+}
+
+.blue, .blue a, a.blue {
+    color: #0074B7;
+}
+
+.green, .green a, a.green {
+    color: #3D9900;
+}
+
+.orange, .orange a, a.orange {
+    color: #FF6600;
+}
+
+.gray, .gray a, a.gray {
+    color: #888;
+}
+
+/* 行高 */
+.lh14 {
+    line-height: 14px
+}
+
+.lh16 {
+    line-height: 16px
+}
+
+.lh18 {
+    line-height: 18px
+}
+
+.lh20 {
+    line-height: 20px
+}
+
+.lh22 {
+    line-height: 22px
+}
+
+.lh24 {
+    line-height: 24px
+}
+
+/* 布局 */
+#header, #conter, #footer, .wrapper {
+    width: 950px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    clear: both;
+}
+
+#header .topBar {
+    padding: 15px 30px;
+    height: 15px;
+    line-height: 15px;
+    background: url(../images/topBar_bg.gif) no-repeat center top;
+}
+
+#header .topBar .logo {
+    float: left;
+}
+
+#header .topBar .menu {
+    float: right;
+    color: #FFF;
+}
+
+#header .topBar .menu a {
+    color: #FFF;
+}
+
+#header .topBar .menu a:hover {
+    color: #FFFF00;
+}
+
+#header .topBar .menu a.mail {
+    color: #FFFF00;
+    padding: 0 0 0 20px;
+    background: url(../images/ico_mail.gif) no-repeat left center;
+}
+
+#header .nav {
+    height: 62px;
+    overflow: hidden;
+    clear: both;
+    background: url(../images/nav_bg.gif) repeat-x;
+}
+
+#header .nav ul {
+    float: left;
+    display: inline;
+    width: 520px;
+}
+
+#header .nav li {
+    float: left;
+    display: inline;
+    height: 36px;
+    padding: 13px;
+    background: url(../images/nav_li.gif) no-repeat right center;
+}
+
+#header .nav li.last {
+    background: none;
+}
+
+#header .nav li a {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 15px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
+
+#header .nav li a:hover, #header .nav li a.active {
+    padding: 0 14px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #4786b3;
+    background: url(../images/nav_li_hover.gif) no-repeat center center;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#header .nav .logo {
+    float: left;
+    display: inline;
+    width: 250px;
+}
+
+#header .nav .logo a {
+    display: block;
+    height: 62px;
+    background: url(../images/logo_adp.gif) no-repeat;
+}
+
+#header .nav .down {
+    float: right;
+    display: inline;
+    width: 180px;
+}
+
+#header .nav .down a {
+    display: block;
+    height: 62px;
+    background: url(../images/nav_down.gif) no-repeat;
+}
+
+#conter {
+    margin-top: 8px;
+    overflow: visible;
+}
+
+#conter #left, #conter #right {
+    padding: 10px 20px;
+    min-height: 540px;
+    _height: 540px;
+    background: url(../images/conter_bg.gif) repeat-x 0 0;
+    position: relative;
+}
+
+#conter #left {
+    float: left;
+    width: 150px;
+}
+
+#conter #right {
+    float: right;
+    width: 710px;
+}
+
+#conter #left .top, #conter #right .top {
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#conter #left .top {
+    width: 190px;
+    background: url(../images/conter_left_top.gif) no-repeat left top;
+}
+
+#conter #right .top {
+    width: 750px;
+    background: url(../images/conter_right_top.gif) no-repeat left top;
+}
+
+#conter .tips {
+    padding: 0 10px 10px 10px;
+    color: #888;
+}
+
+#conter .menu {
+    margin: 0 0 15px 0;
+    padding: 0 0 0 10px;
+}
+
+#conter .menu dt {
+    font-size: 14px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 20px;
+}
+
+#conter .menu dd {
+    padding: 0 0 0 10px;
+    background: url(../images/ico_jt2.gif) no-repeat left center;
+    height: 22px;
+    line-height: 22px;
+}
+
+#footer .toolBar {
+    height: 50px;
+    overflow: hidden;
+    padding: 10px 0;
+    background: url(../images/footer_toolBar_bg.gif) repeat-x;
+    border: 1px solid #b7b8b9;
+}
+
+#footer .toolBar li {
+    float: left;
+    display: inline;
+    height: 40px;
+    padding: 5px 18px 5px 0;
+    border-right: 1px dashed #999;
+}
+
+#footer .toolBar li strong {
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    display: block;
+}
+
+#footer .toolBar li a {
+    color: #888;
+    padding: 0 7px 0 0;
+    background: url(../images/ico_jt1.gif) no-repeat right center;
+}
+
+#footer .toolBar li a:hover {
+    color: #1c82bb;
+    text-decoration: none;
+}
+
+#footer .toolBar li.tools {
+    background: url(../images/img_tools.gif) no-repeat 10px top;
+    padding-left: 58px;
+}
+
+#footer .toolBar li.froum {
+    background: url(../images/img_froum.gif) no-repeat 10px top;
+    padding-left: 68px;
+}
+
+#footer .toolBar li.software {
+    background: url(../images/img_software.gif) no-repeat 10px top;
+    padding-left: 68px;
+}
+
+#footer .toolBar li.help {
+    background: url(../images/img_help.gif) no-repeat 10px top;
+    padding-left: 68px;
+}
+
+#footer .toolBar li.contact {
+    background: url(../images/img_contact.gif) no-repeat 10px top;
+    padding-left: 72px;
+    border: 0;
+}
+
+#footer .nav {
+    text-align: right;
+    background: url(../images/footer_nav_bg.gif) no-repeat center top;
+    padding: 15px 7px 15px 10px;
+    color: #CCC;
+}
+
+#footer .nav a {
+    color: #555;
+    margin: 0 3px;
+}
+
+#footer .nav a:hover {
+    color: #DD0000;
+}
+
+#footer .nav .copy {
+    float: left;
+    color: #555;
+}
+
+/* 共用 */
+.warp {
+    background: url(../images/conter_wrapper.gif) no-repeat center top;
+    padding: 10px 20px;
+    height: 100%;
+    overflow: hidden;
+	float:left;
+}
+
+h2 {
+    font: 20px/38px "微软雅黑";
+  
+    height: 45px;
+    background: url(../images/line1.gif) repeat-x left bottom;
+    padding: 0 0 0 10px;
+    margin: 0 0 20px 0;
+}
+
+h2 span {
+    color: #DD0000;
+}
+
+h2 input {
+    float: right;
+    margin: 8px 0 0 0;
+}
+
+.tit {
+    height: 45px;
+    background: url(../images/line1.gif) repeat-x left bottom;
+}
+
+.tit h2 {
+    display: inline;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tit em {
+    display: inline;
+    color: #BBB;
+    padding: 0 0 0 10px;
+}
+
+.tit span {
+    float: right;
+    margin: 10px 0 0 0;
+}
+
+.tit span a {
+    display: block;
+    width: 55px;
+    height: 20px;
+    line-height: 20px;
+    background: url(../images/ico_more1.gif) no-repeat;
+    color: #FFF;
+    text-align: center;
+}
+
+.tit span a:hover {
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+.btnHx1, .btnHx2, .btnLx1, .btnLx2 {
+    height: 22px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+.btnHx1 {
+    width: 40px;
+    background: url(../images/btn_x.gif) no-repeat 0 0;
+}
+
+.btnHx2 {
+    width: 70px;
+    background: url(../images/btn_x.gif) no-repeat 0 -44px;
+}
+
+.btnLx1 {
+    width: 40px;
+    background: url(../images/btn_x.gif) no-repeat 0 -22px;
+}
+
+.btnLx2 {
+    width: 70px;
+    background: url(../images/btn_x.gif) no-repeat 0 -66px;
+}
+
+.btnHd1, .btnLd1 {
+    height: 33px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.btnHd1 {
+    border: 1px solid #E85700;
+    background: url(../images/btn_d.gif) repeat-x 0 -33px;
+}
+
+.btnLd1 {
+    border: 1px solid #467b97;
+    background: url(../images/btn_d.gif) repeat-x 0 0;
+}
+
+.pager ul {
+    height: 24px;
+    overflow: hidden;
+}
+
+.pager li {
+    float: left;
+    display: inline;
+    text-align: center;
+    margin: 0 0 0 4px;
+}
+
+.pager li a {
+    float: left;
+    display: block;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #CCC;
+}
+
+.pager li a:hover {
+    text-decoration: none;
+}
+
+.pager li.active, .pager li a:hover {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    background: #6a99b1;
+    color: #FFF;
+    font-weight: bold;
+    border: 1px solid #6a99b1;
+}
+
+.pager .ipt {
+    width: 28px;
+    height: 16px;
+    line-height: 16px;
+    padding: 3px;
+    border: 1px solid #CCC;
+}
+
+.ipt1, .ipt2, .ipt3 {
+    border-left: 1px solid #AAA;
+    border-top: 1px solid #AAA;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding: 3px;
+    height: 16px;
+}
+
+.ipt1 {
+    width: 262px;
+}
+
+.ipt3 {
+    width: 52px;
+}
+
+.step {
+    border: 1px solid #DDD;
+    border-bottom: 0;
+}
+
+.step ul {
+    height: 38px;
+    overflow: hidden;
+}
+
+.step li {
+    float: left;
+    display: inline;
+    height: 38px;
+    line-height: 38px;
+    background: url(../images/step_bg.gif) repeat-x 0 0;
+    color: #AAA;
+}
+
+.step li em {
+    float: left;
+    display: block;
+    width: 57px;
+    height: 38px;
+    background: url(../images/step_nb.gif) no-repeat 0 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    font-family: arial black, Arial, Helvetica, sans-serif;
+    margin: 0 8px 0 0;
+}
+
+.step li.active {
+    background: url(../images/step_bg.gif) repeat-x 0 -38px;
+    color: #333;
+}
+
+.step li.active em {
+    background: url(../images/step_nb.gif) no-repeat 0 -38px;
+    color: #DD0000;
+}
+
+.step .b1 {
+    width: 240px;
+    background: url(../images/step_ico_go.gif) no-repeat 220px 0;
+}
+
+.step .b2 {
+    width: 226px;
+    border-left: 1px solid #DDD;
+    background: url(../images/step_ico_go.gif) no-repeat 206px 0;
+}
+
+.step .b3 {
+    width: 240px;
+    border-left: 1px solid #DDD;
+    background: url(../images/step_ico_ok.gif) no-repeat 215px 0;
+}
+
+.step li.active .b1 {
+    background: url(../images/step_ico_go.gif) no-repeat 220px -38px;
+}
+
+.step li.active .b2 {
+    background: url(../images/step_ico_go.gif) no-repeat 206px -38px;
+}
+
+.step li.active .b3 {
+    background: url(../images/step_ico_ok.gif) no-repeat 215px -38px;
+}
+
+.tabBox ul {
+    overflow: hidden;
+    padding: 0 0 0 20px;
+}
+
+.tabBox ul li {
+    float: left;
+    display: inline;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px 2px 0px 0px;
+    cursor: pointer;
+}
+
+.tabBox ul li.focus {
+    background: url(../images/tab_bg1.gif) repeat-x 0 -38px;
+    color: #FFF;
+    font-weight: bold;
+    border-bottom: 0;
+}
+
+.tabBox ul li.blur {
+    background: url(../images/tab_bg1.gif) repeat-x 0 0;
+    border-bottom: 0;
+}
+
+.cotBox {
+   
+}

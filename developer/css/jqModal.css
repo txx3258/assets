@@ -1,0 +1,153 @@
+/* jqModal base Styling courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+	the Window's z-index value will be set to 3000 by default (via jqModal.js). */
+@charset "utf-8";
+.jqmWindow {
+    display: none;
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    margin-left: -174px;
+    width: 358px;
+    color: #333;
+    padding: 12px;
+}
+
+.loginWindow {
+    display: none;
+    position: fixed;
+    top: 22%;
+    left: 29%;
+    margin-left: -174px;
+    width: 824px;
+    padding: 0;
+    height: 440px;
+    z-index: 3000;
+}
+
+.headline {
+    border-bottom: 1px solid #0873C1;
+    height: 50px;
+    width: 824px;
+}
+.headfont {
+	float: left;
+    padding: 13px 30px;
+    position: relative;
+    overflow: hidden;
+    height: 17px;
+}
+
+.loginCancel {
+	float: right;
+	padding-top: 17px;
+	padding-right: 20px;
+	width: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+.mestil {margin-top: 1px; margin-left: 224px;}
+.mesname {margin:80px auto 10px; text-align: center;}
+.meshao {margin: 0px auto 0; text-align: center;}
+.messg {padding-top:15px; margin-left: 224px; position: relative;}
+.messa {padding-top:12px; padding-left: 20px; position: relative;}
+.jqmOverlay {
+    background-color: #4d4d4d;
+}
+.main {background-position:100% 100%;}
+.logleft .iflight {background-position: -30px -484px; height: 118px; width: 186px; margin-left: 23px; margin-top: 33px;}
+.logline .iflow {background-position: 0 -128px; height: 39px; width: 311px; margin-top: 16px; margin-left: 40px; position: relative;}
+.bindinfo .ibut {background-position: -10px -72px; height: 25px; width: 13px; margin-right: 13px; margin-top: 19px; position: relative;}
+.perinfo .ibut {background-position: -10px -72px; height: 25px; width: 13px; margin-right: 13px; margin-top: 19px; position: relative;}
+.loginbtn .ilog {background-position: -10px -72px; height: 25px; width: 13px; margin-left: 20px; margin-top: 16px;}
+.logright .ihelp {background-position: 0 -356px; height: 7px; width: 9px; margin: 8px 0 0 5px;}
+.kilog {height: 52px; width: 49px; border-left: 1px solid #E28104;}
+.logleft {width: 412px; height: 350px; margin-bottom: 16px; margin-top: 24px; border-right: 1px solid #E4E4E4; display: inline; float: left;}
+.logright {width: 411px; height: 390px; display: inline; float: right;}
+.logline {width: 390px; height: 138px; margin: 10px auto 17px; position: relative;}
+.lborder {border-left: 1px solid #E4E4E4; margin-left: -1px; padding-left: 5px;}
+.flowl {margin-top: 12px;}
+.uli {margin-top: 7px; display: inline; width: 130px;}
+.perinfo {margin-left: 28px; width: 171px; height: 62px; margin-top: 40px; cursor: pointer;}
+.bindinfo {margin-right: 32px; width: 171px; height: 62px; margin-top: 40px; cursor: pointer;}
+.loginbtn {width:236px; height:52px; margin: 105px auto 12px; cursor: pointer;}
+.sbtn {border-right: 1px solid #FE9C1C; height: 38px; margin: 0 0 14px 14px; padding-top: 14px; width: 162px;}
+.sregin {margin-left: 134px;}
+
+.pertil {width: auto; border-bottom: 2px solid #E4E4E4; padding-bottom: 12px; margin-bottom: 20px;}
+.permes {margin-top:59px;}
+.peruse {border-bottom: 2px solid #FFAE00; padding-bottom: 12px;}
+.perinput {width:318px; height:29px; border: 1px #AAAAAA solid;}
+#tab_1 {height: 38px; line-height: 38px; text-align: center; width: 114px; cursor: pointer; display: inline; float: left;}
+#tab_2 {height: 38px; line-height: 38px; text-align: center; width: 112px; cursor: pointer; display: inline; float: right;}
+.tabBox ul {width:226px; height:38px;}
+.pertext {width:196px; height:29px; border: 1px #AAAAAA solid;}
+.pertli {margin-left:54px;}
+.pertyo {margin-left:47px;}
+.dfupload {width:117px; height:32px; background-color: #2C96E7;}
+.dfup {width:117px; height:32px;}
+.cotBox {padding-bottom: 20px;}
+
+
+.logright { overflow: hidden; }
+.logright h4,
+.logright h5 { margin: 0; color: #101010; font: 24px/82px 'Î¢ÈíÑÅºÚ'; }
+.logright h4 { height: 82px; padding-left: 27px; }
+.logright h5 { height: 70px; text-align: center; line-height: 70px; }
+.logright h5 span { color: #0271c6; padding-right: 5px; }
+.logright .logright-ul-1,
+.logright .logright-ul-2 { margin: 0 auto; padding: 0; font: 14px 'Î¢ÈíÑÅºÚ'; text-align: center; }
+.logright .logright-ul-1 { margin-top: 39px; width: 236px; }
+.logright .logright-ul-2 { margin-top: 24px; width: 300px; }
+.logright-ul-1 a,
+.logright-ul-2 a { display: block; background: url(../images/icon-3.jpg) no-repeat; }
+.logright-li-0,
+.logright-li-1 { height: 52px; line-height: 52px; padding-bottom: 15px; }
+.logright-li-1 a,
+.logright-li-0 a { height: 52px; padding-right: 52px; color: #fff; font-size: 18px; background-color: #2c95e6; background-position: right 0; }
+.logright-li-0 a { background-color: #ff9000; background-position: right -106px; }
+.logright-li-1 a:hover { background-color: #44aaf8; background-position: right -53px; }
+.logright-li-0 a:hover { background-color: #fe9f24; background-position: right -159px; }
+.logright-li-2 { height: 43px; }
+.logright-li-2 a { border: 1px solid #a8d0f0; background-color: #cfe8fb; height: 41px; font: 16px/41px 'Î¢ÈíÑÅºÚ'; text-align: center; background-position: 24px -212px; color: #1C82BB; }
+.logright-li-2 a:hover { background-color: #e9f6ff; background-position: 24px -254px; border-color:#c8e4fa; }
+.logright-ul-2 .logright-li-2 a { background-position: 58px -212px; }
+.logright-ul-2 .logright-li-2 a:hover { background-position: 58px -254px; }
+.logright-li-3 { height: 52px; line-height: 52px; text-align: center; }
+.logright .logright-li-3 a { background: none; color: #1C82BB; }
+
+input.calendar {
+    background: url("../images/calendar_bg.png") no-repeat scroll 162px center #DCEEFC;
+    border: 1px solid #AEC6E0;
+    color: #676769;
+    cursor: pointer;
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    padding: 3px;
+    width: 190px;
+}
+
+.bindbox {background-position:100% 100%;}
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: expression(this.parentNode.offsetWidth+'px');
+    height: expression(this.parentNode.offsetHeight+'px');
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+    position: absolute;
+    top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+
+}
