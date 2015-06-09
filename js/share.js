@@ -68,12 +68,15 @@ $.extend({
             }
         })
     },
-   my_ajax_alert: function (url, container) {
+   my_ajax_alert: function (url,redUrl) {
         $.ajax({
             type: "GET",
             url: url,
             success: function (data) {
             	alert(data);
+		if(reUrl!=undefined){
+			$.my_ajax_alert(redUrl);
+		}
             },
             error: function (msg) {
                 alert(msg.responseText);
