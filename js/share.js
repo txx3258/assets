@@ -68,14 +68,14 @@ $.extend({
             }
         })
     },
-   my_ajax_alert: function (url,redUrl) {
+   my_ajax_alert: function (url,redUrl,container) {
         $.ajax({
             type: "GET",
             url: url,
             success: function (data) {
             	alert(data);
 		if(redUrl!=undefined){
-			$.my_ajax_html(redUrl,'#Empty');
+			$.my_ajax_html(redUrl,container);
 		}
             },
             error: function (msg) {
