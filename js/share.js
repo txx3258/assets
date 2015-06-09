@@ -75,7 +75,7 @@ $.extend({
             success: function (data) {
             	alert(data);
 		if(redUrl!=undefined){
-			$.my_ajax_alert(redUrl);
+			$.my_ajax_html(redUrl,”#empty”);
 		}
             },
             error: function (msg) {
