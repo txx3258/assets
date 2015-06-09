@@ -74,7 +74,7 @@ $.extend({
             url: url,
             success: function (data) {
             	alert(data);
-		if(reUrl!=undefined){
+		if(redUrl!=undefined){
 			$.my_ajax_alert(redUrl);
 		}
             },
