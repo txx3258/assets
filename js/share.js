@@ -67,6 +67,19 @@ $.extend({
                 alert(msg.responseText);
             }
         })
-    }
+    },
+   my_ajax_alert: function (url, container) {
+        $.ajax({
+            type: "GET",
+            url: url,
+            success: function (data) {
+            	alert(data);
+            },
+            error: function (msg) {
+                alert(msg.responseText);
+            }
+        })
+    },
+
 });
 
