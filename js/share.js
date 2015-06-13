@@ -62,8 +62,11 @@ $.extend({
                 }else{
                     $(container).html(data);
 		     if (fn!=undefined){
-				var arg=arg1?arg1:’’;
-				fn(arg);
+				if (arg1!= undefined){
+					fn();
+				}else{
+					fn(arg1);
+				}
 			}	
                 }
             },
