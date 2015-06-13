@@ -62,7 +62,7 @@ $.extend({
                 }else{
                     $(container).html(data);
 		     if (fn!=undefined){
-				if (arg1!= undefined){
+				if (arg1== undefined){
 					fn();
 				}else{
 					fn(arg1);
