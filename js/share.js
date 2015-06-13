@@ -62,7 +62,8 @@ $.extend({
                 }else{
                     $(container).html(data);
 		     if (fn!=undefined){
-				fn(arg1?arg1:’’);
+				var arg=arg1?arg1:’’;
+				fn(arg);
 			}	
                 }
             },
