@@ -61,7 +61,7 @@ $.extend({
                     window.location.href=data.substring(0,index);
                 }else{
                     $(container).html(data);
-		     if (typeof fun=="function”){
+		     if (typeof fn=="function”){
 				fn();
 			}	
                 }
