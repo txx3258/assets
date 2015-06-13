@@ -51,7 +51,7 @@ var CountNum = (function () {
 })();
 
 $.extend({
-    my_ajax_html: function (url, container) {
+    my_ajax_html: function (url, container,fn) {
         $.ajax({
             type: "GET",
             url: url,
@@ -61,6 +61,9 @@ $.extend({
                     window.location.href=data.substring(0,index);
                 }else{
                     $(container).html(data);
+		     if (typeof fun=="function”){
+				fn();
+			}	
                 }
             },
             error: function (msg) {
@@ -82,7 +85,7 @@ $.extend({
                 alert(msg.responseText);
             }
         })
-    },
+    }
 
 });
 
