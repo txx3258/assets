@@ -51,7 +51,7 @@ var CountNum = (function () {
 })();
 
 $.extend({
-    my_ajax_html: function (url, container,fn) {
+    my_ajax_html: function (url, container,fn,arg1) {
         $.ajax({
             type: "GET",
             url: url,
@@ -62,7 +62,7 @@ $.extend({
                 }else{
                     $(container).html(data);
 		     if (fn!=undefined){
-				fn();
+				fn(arg1?arg1:’’);
 			}	
                 }
             },
