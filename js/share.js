@@ -89,7 +89,22 @@ $.extend({
                 alert(msg.responseText);
             }
         })
+    },
+ my_ajax_two: function (url,redUrl,container) {
+        $.ajax({
+            type: "GET",
+            url: url,
+            success: function (data) {
+		if(redUrl!=undefined){
+			$.my_ajax_html(redUrl,container);
+		}
+            },
+            error: function (msg) {
+                alert(msg.responseText);
+            }
+        })
     }
+
 
 });
 
