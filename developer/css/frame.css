@@ -10,8 +10,7 @@
  * ---------------------------------------------
  */
 #my-app-container { background: #eee; padding: 0px 0 50px; }
-#my-app-content { margin: 0 auto; background: #fff url(../images/my-app-bg.gif) repeat-y; border: 1px solid #c8c8c8; border-left: none; width: 999px; min-height:600px; _height:600px; }
-/*frane left*/
+#my-app-content { margin: 0 auto; background: #fff url(../images/my-app-bg.gif) repeat-y; border: 1px solid #c8c8c8; border-left: none; width: 999px; height:auto;; }/*frane left*/
 #my-app-nav { width: 202px; float: left; position: relative; padding: 0 1px 20px; }
 #my-app-nav a { display: block; }
 .my-app-nav ul { height: 40px; padding: 5px; position: relative; z-index: 100; }
