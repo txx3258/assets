@@ -99,7 +99,7 @@ $.extend({
                 if(index>0){
                     window.location.href=data.substring(0,index);
                 }else{
-                    $(container).append(data);
+                    $(container).prepend(data);
 		     if (fn!=undefined){
 				if (arg1== undefined){
 					fn();
