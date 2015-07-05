@@ -90,21 +90,29 @@ $.extend({
             }
         })
     },
- my_ajax_two: function (url,redUrl,container) {
+    my_ajax_xhtml: function (url, container,fn,arg1) {
         $.ajax({
             type: "GET",
             url: url,
             success: function (data) {
-		if(redUrl!=undefined){
-			$.my_ajax_html(redUrl,container);
-		}
+                var index=data.indexOf('redirect_of_mine');
+                if(index>0){
+                    window.location.href=data.substring(0,index);
+                }else{
+                    $(container).append(data);
+		     if (fn!=undefined){
+				if (arg1== undefined){
+					fn();
+				}else{
+					fn(arg1);
+				}
+			}	
+                }
             },
             error: function (msg) {
                 alert(msg.responseText);
             }
         })
     }
-
-
 });
 
